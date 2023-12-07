@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #ffcb04; ; /*cor de fundo*/
+    padding-top: 100px; /*margem topo da pagina*/
+}
+
+header {
+    display: flex; /*Para alinhas os elementos*/
+    align-items: center; /*deixar os elementos centralizado na vertical*/
+    margin-bottom: 40px; /*margem parte de baixo titulo*/
+}
+
+header img {
+    height: 40px; /*Tamanho da imagem*/
+    margin-right: 16px; /*margem a direita da imagem*/
+}
+
+header h1 {
+    font-size: 55px;
+    font-weight: bold; /*deixar negrito*/
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.container {
+    max-width: 960px; /*Tamanho da pagina*/
+    width: 100%; /*Sinalizamos que o que esta dentro do container vai ocupar 100% do espaço de 960px*/
+    margin: 0 auto; /*Para centralizar na horizontal*/
+}
+
+form {
+    display: flex; /*para alinhar os elementos*/
+    max-width: 960px; /*Espaço que vao ocupar*/
+    width: 100%;
+    justify-content: space-between; /*igualar o espaço entre os elementos*/
+    margin-bottom: 56px; /*Margem inferior (separando formulario da tabela)*/
+}
+
+form input {
+    background-color: #fff; /*cor do fundo do campo*/
+    font-size: 24px; /*tamanho da fonte*/
+    border: none; /*remover borda*/
+    border-bottom: #000;
+    padding: 8px; /*Espaço entre os elementos*/
+}
+
+form button{
+    background-color: #000000; /*cor do fundo do botão*/
+    color: #fff; /*cor da fonte do botão*/
+    font-size: 24px; /*tamanho da fonte*/
+    font-weight: bold; /*negrito*/
+    border: none; /*remover borda*/
+    cursor: pointer; /*Cursor do mouse (mãozinha com indicador*/
+    padding: 8px; /*Espaço entre os elementos*/
+}
+
+table {
+    width: 100%; /*para tabela ocupar 100% do espaço*/
+}
+
+table th { /*modificando nome das colunas*/
+    border-bottom: 2px solid #000; /*borda entre os elementos*/
+    padding: 16px; /*Espaçamento*/
+    font-size: 30px; /*Fonte */
+    font-weight: bold; /*negrito*/
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+table td{ /*modificando texto das linhas da tabela*/
+    padding: 16px 0; /*somente espaço de 8px na parte superior e inferior... nas laterias 0 zero*/
+    text-align: center; /*Alinha os textos das colunas e linhas*/
+    font-size: 18px;
+    border-bottom: 1px solid #0c0000; /*colocamos um separador nas linhas... na cor preta quase transparente*/
+}

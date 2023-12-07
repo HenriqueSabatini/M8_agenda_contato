@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dhurjati&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="capelo e diploma">
+            <h1>Agenda De Contatos</h1>
+        </header>
+        <form id="form-agenda">
+            <input type="text" id="nome-contato" required placeholder="Nome da Contato">
+            <input type="tel" id="numero-contato" required placeholder="Numero Tel" pattern="^[0-9]{9}$">
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing="0"> <!--REMOVER Espacinho que é criado entre as colunas-->
+            <thead> <!--Cabeçalho da tabela-->
+                <tr><!--Linha para ir as colunas abaixo-->
+                    <th>Nome Contato</th> <!--Nome da coluna 1-->
+                    <th>Numero Contato</th> <!--Nome da coluna 2-->
+                </tr>            
+            </thead>
+            <tbody> <!--corpo da tabela-->       
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
